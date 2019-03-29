@@ -1,0 +1,98 @@
+// colors
+$blue : #0088ce;
+
+
+.snack-card {
+  border: 3px solid rgba($blue, 0.8);
+  border-radius: 15px;
+  padding: 50px 25px;
+  background-color: rgba($blue, 0.08);
+
+
+
+  .snack-image strong {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .snack-image strong,
+  label.components-base-control__label {
+    margin-top: 20px;
+    color: $blue;
+  }
+
+  textarea.components-textarea-control__input,
+  input.components-text-control__input {
+    border-color: white;
+    border-bottom-color: rgba($blue, 0.8);
+    border-radius: 0;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.snack-name {
+  font-family: sans-serif;
+  color: $blue;
+  font-size: 2em;
+  //border-bottom: 2px solid $blue;
+  margin-bottom: 10px;
+
+  span {
+    //display: block;
+    font-style: italic;
+    font-size: 0.4em;
+  }
+}
+
+.post-type-snack .edit-post-settings-sidebar__panel-block {
+  .editor-block-inspector__card-title {
+    color: $blue;
+    text-transform: uppercase;
+  }
+  h2,
+  h3 {
+    color: $blue;
+    .components-panel__body-toggle {
+      color: $blue;
+    }
+  }
+}
+
+.components-base-control .components-base-control__help {
+  margin-top: auto;
+}
+
+.components-panel__row.snack-future {
+  margin-top: -10px;
+  margin-bottom: -5px;
+  text-align: right;
+  font-style: italic;
+
+  span {
+    color: orange;
+    font-size: 0.8em;
+    width: 100%;
+  }
+}
+.snack-size,
+.snack-price {
+  float: left;
+  width: 49%;
+}
+
+//.snack-brand,
+.snack-size {
+  float: right;
+  width: 49%;
+}
+
+.snack-description {
+  clear: both;
+}
