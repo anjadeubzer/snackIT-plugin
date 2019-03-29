@@ -1,11 +1,19 @@
-# How to Build a Block WordPress Plugin
+# SnackIT Plugin
 
-![Screenshot of block installed showing the title setting](https://cl.ly/rrQz/Screen%20Shot%202018-05-25%20at%2010.13.42%20PM.png)
+![Screenshot of block installed showing the title setting](http://anjadeubzer.de/images/snack-block.png)
 
-This plugin installs two custom blocks:
+###This plugin installs:
 
-1. How to Create a Block - Shows the code needed to create a basic block
-2. Demo Block - Used as an example to reference for basic block architecture
+1. A SnackIT block
+2. A custom post type 'snacks'
+3. A custom taxonomy 'snack_groups'
+4. Some settings for the REST API
+
+It was created for the https://javascriptforwp.com/ Hackathon 2019
+
+Find our Project here : [https://snack-it-headless.netlify.com](https://snack-it-headless.netlify.co)
+
+### Install & Develop
 
 To make edits to the plugin make sure to run the following:
 
@@ -15,10 +23,11 @@ npm run dev
 ```
 
 
-## Gutenberg Block Development Course
+### Credits
 
-![Course Banner](https://dzwonsemrish7.cloudfront.net/items/1J3M310N0S1x170k1d0D/Cover%20GB.png)
+The base of this project is from Zac Gordons Git project: [https://github.com/zgordon/how-to-gutenberg-plugin](https://github.com/zgordon/how-to-gutenberg-plugin)
+
+find more infos on his Gutenberg Block Development Course here: 
 
 This plugin accompanies the [Gutenberg Development Course from Zac Gordon](https://javascriptforwp.com/product/gutenberg-block-development-course/).
-
 The [full course example files can be found in this repo here](https://github.com/zgordon/gutenberg-course).
